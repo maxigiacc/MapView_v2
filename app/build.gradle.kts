@@ -54,6 +54,7 @@ dependencies {
     implementation ("com.jakewharton.timber:timber:5.0.1")
     implementation("org.greenrobot:eventbus:3.3.1")
     implementation ("com.google.android.gms:play-services-location:21.2.0")
+    implementation ("com.github.MKergall:osmbonuspack:6.9.0")
 
 }
 

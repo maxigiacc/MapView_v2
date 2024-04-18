@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <style name="MarkerNodeTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#FFF000</item>
+        <item name="colorPrimaryDark">#FFA100</item>
+        <item name="colorAccent">#AAAA00</item>
+    </style>
+
 </resources>

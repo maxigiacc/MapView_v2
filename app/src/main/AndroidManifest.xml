@@ -15,14 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight">
         <!-- register by manifest -->
-        <receiver
-            android:name="com.example.mapview.location.LocationProviderChangedReceiver"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.location.PROVIDERS_CHANGED" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver>
 
         <activity
             android:name="com.example.mapview.MainActivity"
