@@ -16,6 +16,7 @@ class LocationProviderChangedReceiver : BroadcastReceiver() {
     internal var isGpsEnabled: Boolean = false
     internal var isNetworkEnabled: Boolean = false
 
+    //modifica questa onReceive con FusedLocationProviderClient
     override fun onReceive(context: Context, intent: Intent) {
         intent.action?.let { act ->
             if (act.matches("android.location.PROVIDERS_CHANGED".toRegex())) {
